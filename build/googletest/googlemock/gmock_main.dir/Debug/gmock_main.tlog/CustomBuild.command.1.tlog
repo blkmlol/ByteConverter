@@ -1,0 +1,10 @@
+^C:\BLMP\VSC\CONVERTER\GOOGLETEST\GOOGLEMOCK\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/BLMP/VSC/Converter -BC:/BLMP/VSC/Converter/build --check-stamp-file C:/BLMP/VSC/Converter/build/googletest/googlemock/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^C:\BLMP\VSC\CONVERTER\BUILD\CMAKEFILES\D7D7EDF0FC706075F3C802F3B81B4AD7\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/BLMP/VSC/Converter -BC:/BLMP/VSC/Converter/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/BLMP/VSC/Converter/build/Converter.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,28 @@
+Start testing: Aug 28 01:21 RTZ 2 (çèìà)
+----------------------------------------------------------
+1/1 Testing: ConverterTest
+1/1 Test: ConverterTest
+Command: "C:/BLMP/VSC/Converter/build/test/Debug/ConverterTest.exe"
+Directory: C:/BLMP/VSC/Converter/build/test
+"ConverterTest" start time: Aug 28 01:21 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ConverterTest
+[ RUN      ] ConverterTest.ByteConverterTest
+[       OK ] ConverterTest.ByteConverterTest (18 ms)
+[----------] 1 test from ConverterTest (18 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (19 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"ConverterTest" end time: Aug 28 01:21 RTZ 2 (çèìà)
+"ConverterTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 28 01:21 RTZ 2 (çèìà)

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20230827-1130-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.27.4"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="DESKTOP-PQLDUEE"
+	OSRelease=" Professional"
+	OSVersion=" (Build 19045)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="15"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="24"
+	NumberOfPhysicalCPU="12"
+	TotalVirtualMemory="130913"
+	TotalPhysicalMemory="130913"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2499"
+	>
+	<Testing>
+		<StartDateTime>Aug 28 01:21 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</StartDateTime>
+		<StartTestTime>1693174915</StartTestTime>
+		<TestList>
+			<Test>./test/ConverterTest</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>ConverterTest</Name>
+			<Path>./test</Path>
+			<FullName>./test/ConverterTest</FullName>
+			<FullCommandLine>C:\BLMP\VSC\Converter\build\test\Debug\ConverterTest.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.161971</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\BLMP\VSC\Converter\build\test\Debug\ConverterTest.exe</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNkD8LwkAMxff7FBnt0INuOjj4DwdBpdXp6HBiLAdtTq5pxW/vabXUgtg3hbwfSV7UtFUKcUVkKIMIGEuGi7PFpy4rwyiFClulsM7tSeeNj1QbZ6lA8ixyWF17cHfmwlKNjtEdfEsoiI9beCn9tuT8ztiHG+02/2EYRWMoymDgIW8c2LLOAzEsK6N24dneSKjuJ399EJwm6RdNOot8pP0sSVbLZ/4GluIBchx/Uw==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Aug 28 01:21 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</EndDateTime>
+		<EndTestTime>1693174915</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
